@@ -1,0 +1,238 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	background: #222 !important;
+}
+
+nav.navbar {
+	border: 0px;
+	border-radius: 0px !important;
+	background: #111;
+}
+
+#accueil .container {
+	background: #f1f1f1;
+	height: 100%;
+}
+
+.wrapperHeader {
+	height: 40%;
+}
+
+.headerImg {
+	background: url('../images/loutre.png') 0 30%;
+	background-size: cover;
+	height: 100%;
+	display: flex;
+}
+
+h1 {
+	color: #fff !important;
+	margin: auto !important;
+	padding: 1em;
+	background: rgba(0,0,0,0.3);
+	text-shadow: 0px 0px 6px #222;
+}
+
+div.dropdown-menu {
+	padding: 0;
+}
+
+.formLogin {
+	padding: 1em;
+}
+
+.formLogin label:nth-child(3), .formLogin .btn {
+  margin-top: 1em;
+}
+
+/* SECTION 1 */
+
+.row > h2 {
+	color: #222;
+	font-family: Lobster;
+	font-size: 2.5em;
+	margin-left: 1em;
+}
+
+.row > .article {
+	padding: 2em 2em 2em 2em;
+}
+
+.row .articleContainer {
+	background: white;
+  	padding: 2em;
+}
+
+.row {
+	background: #f1f1f1;
+}
+
+.article h4 {
+	color: crimson;
+}
+
+.article span:last-child {
+	font-style: italic;
+}
+
+/*TABS TABS TABS TABS TABS TABS TABS TABS TABS TABS TABS TABS TABS */
+
+ul.nav.nav-pills {
+	padding: 0 2em;
+	margin-bottom: 1em;
+}
+
+ul.nav.nav-pills a {
+	border: none;
+	border-radius: 0;
+}
+
+/*TABS TABS TABS TABS TABS TABS TABS TABS TABS TABS TABS TABS TABS */
+
+/*POSTS POSTS POSTS POSTS POSTS POSTS POSTS POSTS POSTS POSTS POSTS */
+
+#bodyPosts {
+	display: flex;
+	color: white;
+	flex-direction: column;
+}
+
+#bodyPosts form {
+	background: #f1f1f1;
+	padding: 0em 1em 2em 1em;
+}
+
+#bodyPosts label {
+	color: #222
+}
+
+#bodyPosts > div {
+	margin: auto;
+}
+
+label[for=body] {
+	margin-top: 1em;
+}
+
+/*TABLE*//*TABLE*//*TABLE*//*TABLE*//*TABLE*//*TABLE*//*TABLE*/
+
+.tooltipster-content span {
+	color: crimson;
+}
+
+.tooltipster-content {
+	cursor: pointer;
+}
+
+.icon-trash-empty {
+	position: relative;
+}
+
+#popover-delete {
+	position: absolute;
+	background: #333;
+	color: white;
+	padding: .5em 1em;
+	z-index: 100;
+	box-shadow: 0px 0px 10px black;
+	top: 100%;
+}
+
+#popover-arrow {
+	position: absolute;
+	top: -100%;
+	left: 50%;
+	color: #333
+}
+
+.editLineColor {
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+	z-index: 10;
+	position: relative;
+}
+
+.table-header div {
+	background: crimson;
+	padding: 1em;
+	text-align: center;
+	border-right: 1px solid rgba(0,0,0,0.2);
+}
+
+.table-header div:last-child {
+  border-right: 0px; 	
+}
+
+.table-line .table-cell {
+	border-right: 1px solid rgba(0,0,0,0.2);
+	color: #111;
+	padding: .5em;
+	text-align: center;
+	font-size: 1.1em;
+}
+
+.table-line div:last-child {
+	border: 0px;
+	position: relative;
+}
+
+.table-line {
+	transition: box-shadow 0.2s ease;
+}
+
+.table-line:nth-child(even){
+	background: #f1f1f1;
+}
+
+.table-line:nth-child(odd) {
+	background: #f7f7f7;
+}
+
+.state {
+	color: #111;
+  font-family: Lobster;
+	font-size: 2em;
+	margin-bottom: 1em;
+	color: crimson;
+}
+
+.buttonAjouterArticle {
+	padding: .5em 1em;
+	color: black;
+	background: #222;
+	display: inline-block;
+	margin: calc(1em + 15px) 1em;
+	color: white;
+	font-size: 1.2em;
+	transition: background .5s ease;
+}
+
+.buttonAjouterArticle:hover {
+	cursor: pointer;
+	background: #444;
+}
+
+textarea {
+	resize: vertical;
+}
+
+i:hover {
+	cursor: pointer;
+}
+
+.popup {
+	position: absolute;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	padding: 1em;
+	background: #333;
+}
+
+.debug-titre {
+	color: lightgreen;
+}
